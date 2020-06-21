@@ -1,0 +1,58 @@
+body {
+    /*注册页面的背景*/
+    background-image: url("../../img/necessary-images/background.png");
+}
+
+section {
+    border-radius: 20px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.3);
+    width: 27%;
+    min-width: 300px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px 100px 30px;
+}
+
+section form {
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 400px;
+    margin-bottom: 30px;
+}
+
+[type="submit"] {
+    background-image: linear-gradient(#3ee752, #a7ffb4);
+    color: #333333;
+    font-size: 11pt;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    margin-top: 18px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover {
+    background-image: linear-gradient(#36c748, #157e2a);
+    color: white;
+}
+
+input {
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1px;
+}

@@ -1,0 +1,192 @@
+#active {
+    /*当前页面高亮*/
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+header {
+    /*为导航栏设计样式*/
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10; /*控制导航栏显示在头图上方*/
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    margin: 5px;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: bold;
+    min-width: 650px;
+}
+
+.navigation {
+    margin-left: 50px;
+}
+
+.dropdown {
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+}
+
+.dropdown:hover .dropdown-content {
+    /*鼠标移上时显示下拉菜单*/
+    display: block;
+}
+
+.dropdown-content {
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    width: 120px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+.dropdown-content * {
+    display: block;
+    vertical-align: middle;
+
+}
+
+.dropdown-row img {
+    display: inline;
+}
+
+.dropdown-row a {
+    display: inline;
+}
+
+#picture-highlight {
+    z-index: 5;
+    position: relative;
+    top: -65px;
+    width: 100%;
+    min-width: 670px;
+    height: 900px;
+    background-image: url("../../img/necessary-images/background.png");
+}
+
+section {
+    text-align: center;
+}
+
+.picture {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.3);
+    margin: 50px;
+    padding: 30px;
+    width: 300px;
+    height: 385px;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+footer {
+    text-align: center;
+    color: #e4e4e4;
+    margin: 100px 10px 10px 10px;
+    padding: 20px 0 20px 0;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.5);
+}
+
+#Upper-Footer {
+    text-align: center;
+
+}
+
+#links {
+    margin-left: 13%;
+    width: 25%;
+    min-width: 180px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#links a {
+    min-width: 130px;
+    width: 40%;
+    display: inline-block;
+    color: #e4e4e4;
+}
+
+#code {
+    width: 25%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#code img {
+    border-radius: 10px;
+}
+
+#return-button {
+    z-index: 20;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#refresh-button {
+    z-index: 20;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+}
+
+.img-container {
+    width: 300px;
+    height: 300px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+a {
+    /*超链接不显示下划线*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:active {
+    color: grey;
+}

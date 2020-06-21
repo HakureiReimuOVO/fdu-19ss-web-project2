@@ -1,0 +1,248 @@
+header {
+    /*为导航栏设计样式*/
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    margin: 5px;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: bold;
+    min-width: 650px;
+}
+
+.navigation {
+    margin-left: 50px;
+}
+
+.dropdown {
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+}
+
+.dropdown:hover .dropdown-content {
+    /*鼠标移上时显示下拉菜单*/
+    display: block;
+}
+
+.dropdown-content {
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    width: 120px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+.dropdown-content * {
+    display: block;
+    vertical-align: middle;
+
+}
+
+.dropdown-row img {
+    display: inline;
+}
+
+.dropdown-row a {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#active {
+    /*当前页面高亮*/
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#current {
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+aside {
+    /*侧边栏向左浮动*/
+    float: left;
+    margin: 30px 0 30px 30px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 15px;
+    box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.25);
+    margin: 30px 30px 50px 260px;
+    padding: 15px;
+    min-width: 350px;
+}
+
+section p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#filter {
+    text-align: center;
+    line-height: 36px;
+    margin-left: 52px;
+}
+
+#filter select, #filter input {
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+#photo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+[type="text"] {
+    width: 135px;
+    vertical-align: middle;
+}
+
+#search-button {
+    display: inline;
+    cursor: pointer;
+}
+
+aside div {
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+}
+
+aside div a:hover {
+    /*鼠标移上快速筛选颜色变化*/
+    color: #b4b4b4;
+    text-shadow: 1px 1px 1px black;
+}
+
+#search {
+    width: 170px;
+}
+
+#search p {
+    margin-bottom: 5px;
+}
+
+#search img {
+    vertical-align: middle;
+}
+
+#filter {
+    padding: 10px 0px 10px 0px;
+}
+
+#popular_content {
+    margin-top: 50px;
+    width: 170px;
+}
+
+#popular_country {
+    margin-top: 50px;
+    width: 170px;
+}
+
+#popular_city {
+    margin-top: 50px;
+    width: 170px;
+}
+
+.title_aside {
+    font-weight: bold;
+}
+
+#page {
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#page * {
+    margin: 0 5px 0 5px;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.img-container {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 15px 15px 30px 15px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+[type="submit"] {
+    background-image: linear-gradient(#3ee752, #a7ffb4);
+    color: #333333;
+    font-size: 11pt;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover {
+    background-image: linear-gradient(#36c748, #157e2a);
+    color: white;
+}
+
+[type="text"] {
+    border-radius: 5px;
+    outline: none;
+    border-width: 2px;
+}
+
+select {
+    border-radius: 5px;
+    outline: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+a {
+    /*超链接不显示下划线*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:active {
+    color: grey;
+}

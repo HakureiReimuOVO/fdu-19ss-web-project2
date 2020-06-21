@@ -1,0 +1,181 @@
+header {
+    /*为导航栏设计样式*/
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    margin: 5px;
+    height: 45px;
+    font-size: 16pt;
+    font-weight: bold;
+    min-width: 650px;
+}
+
+.upload-container {
+    margin-top: 10px;
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    background-image: linear-gradient(#e4e4e4, #cfcfcf);
+    color: #333333;
+    font-size: 11pt;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-container input {
+    position: absolute;
+    font-size: 100px;
+    right: -1080px;
+    top: -105px;
+    opacity: 0;
+    cursor: pointer
+}
+
+.upload-container:hover {
+    background-image: linear-gradient(#888888, #b0b0b0);
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+select {
+    width: 180px;
+    height: 30px;
+    margin: 5px 10px 10px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.navigation {
+    margin-left: 50px;
+}
+
+.dropdown {
+    margin-right: 50px;
+    float: right;
+    text-align: right;
+}
+
+.dropdown:hover .dropdown-content {
+    /*鼠标移上时显示下拉菜单*/
+    display: block;
+}
+
+.dropdown-content {
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    width: 120px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+.dropdown-content * {
+    display: block;
+    vertical-align: middle;
+
+}
+
+.dropdown-row img {
+    display: inline;
+}
+
+.dropdown-row a {
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+section > p {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+[type="text"], textarea {
+    border-radius: 5px;
+    outline: none;
+    border-width: 2px;
+    margin: 5px 0 5px 0;
+    width: 99%;
+}
+
+[type="text"] {
+    height: 25px
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+#picture_upload {
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+
+[type="submit"] {
+    background-image: linear-gradient(#3ee752, #a7ffb4);
+    color: #333333;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover {
+    background-image: linear-gradient(#36c748, #157e2a);
+    color: white;
+}
+
+#active {
+    /*当前页面高亮*/
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+a {
+    /*超链接不显示下划线*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+a:active {
+    color: grey;
+}
